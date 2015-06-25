@@ -11,17 +11,23 @@ html(lang='en')
 		header
 			nav
 				ul
-					li: a about
-					li: a contact
-
-		.topContainer
+					li: a(href='#about') about
+					li: a(href='#contact') contact
+		.topContainer			
 			h1.name| kelsymichael
-		.middleContainer
-			h1| UX/UI
-			img(src='assets/img/UX').UX
 
-			h1| Web Development
-			img(src='assets/img/Development').web 
+		.middleContainer
+			h1.middleText| UX/UI
+			.centerThing
+				.icons
+					img(src='assets/img/desktop.png')#desktop
+					img(src='assets/img/tablet.png')#tablet
+					img(src='assets/img/mobile.png')#mobile
+
+
+			h1.middleText| Web Development
+			img(src='assets/img/web-dev.png')#web
+
 		footer
 			h2.goodbye|let's work together
 			input(type='email' placeholder='zero-spam, just an actual response from me')
