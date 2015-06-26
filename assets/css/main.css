@@ -7,34 +7,12 @@ body {
   height: 100%;
   width: 100%;
 }
-* {
-  background: rgba(29,60,66,0.05);
-}
-header {
-  text-align: right;
-  *zoom: 1;
-  width: auto;
-  max-width: 960px;
-  float: none;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0;
-  padding-right: 0;
-}
-header:before,
-header:after {
-  content: '';
-  display: table;
-}
-header:after {
-  clear: both;
-}
 ul {
   margin-bottom: 0;
 }
 ul li {
   display: inline;
+  margin-right: 2%;
 }
 @media only screen and (max-width: 600px) {
   ul li {
@@ -47,17 +25,48 @@ a {
   font-size: 1.25rem;
 }
 .topContainer {
+  background: url("../img/background.svg") no-repeat center top fixed, url("../img/background1.svg") no-repeat center right, url("../img/background1.svg") no-repeat left center, url("../img/background3.svg") no-repeat center right fixed;
+  background-color: #404040;
   background-size: contain;
+  height: 60vh;
+  margin: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 600px) {
+  .topContainer {
+    height: 40vh;
+    background: url("../img/background.svg") no-repeat center bottom fixed, url("../img/background1.svg") no-repeat center center, url("../img/background1.svg") no-repeat bottom right, url("../img/background3.svg") no-repeat center bottom fixed;
+    background-color: #404040;
+    background-size: contain;
+  }
+}
+.middlewrap {
+  width: 100%;
+  background: #f2efdc;
+}
+.lowerwrap {
+  width: 100%;
+  background: #1d3c42;
 }
 .name {
   font-weight: 300;
   font-size: 65px;
   text-align: center;
   color: #f2efdc;
+  padding-top: 5%;
   margin: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 600px) {
+  .name {
+    background: #404040;
+    padding-bottom: 5%;
+  }
 }
 .line {
-  margin-top: 40px;
+  margin-top: 5%;
   *zoom: 1;
   width: auto;
   max-width: 1440px;
@@ -103,6 +112,7 @@ section {
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
+  background: #f2efdc;
 }
 section:before,
 section:after {
@@ -111,6 +121,9 @@ section:after {
 }
 section:after {
   clear: both;
+}
+.single {
+  margin-bottom: 5%;
 }
 .single img {
   *zoom: 1;
@@ -142,6 +155,8 @@ footer {
   padding-left: 0;
   padding-right: 0;
   text-align: center;
+  height: 50vh;
+  color: #f2efdc;
   *zoom: 1;
 }
 footer:before,
@@ -161,23 +176,33 @@ footer:after {
   clear: both;
 }
 .goodbye {
+  margin-top: 10%;
   text-align: center;
   font-weight: 300;
   font-size: 2.8125rem;
 }
 .middle img {
+  -webkit-animation-name: test;
+  animation-name: test;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   padding-left: 6%;
   display: inline;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 @media only screen and (max-width: 600px) {
   .middle img {
     display: block;
     margin: 10px auto;
+    padding: 0;
   }
 }
 .one {
   height: auto;
   width: 45%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 @media only screen and (max-width: 600px) {
   .one {
@@ -187,6 +212,8 @@ footer:after {
 .two {
   height: auto;
   width: 20%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 @media only screen and (max-width: 600px) {
   .two {
@@ -196,13 +223,131 @@ footer:after {
 .three {
   height: auto;
   width: 10%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 @media only screen and (max-width: 600px) {
   .three {
-    width: 20%;
+    width: 15%;
   }
 }
 #web {
   height: auto;
   width: 60%;
+}
+@-webkit-keyframes test {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  10% {
+    opacity: 0.1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    filter: alpha(opacity=10);
+  }
+  20% {
+    opacity: 0.2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    filter: alpha(opacity=20);
+  }
+  30% {
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+  }
+  40% {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+  }
+  50% {
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+  }
+  60% {
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+  }
+  70% {
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+  }
+  80% {
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+  }
+  90% {
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+  }
+  100% {
+    opacity: 1;
+    -ms-filter: none;
+    -webkit-filter: none;
+            filter: none;
+  }
+}
+@keyframes test {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  10% {
+    opacity: 0.1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    filter: alpha(opacity=10);
+  }
+  20% {
+    opacity: 0.2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    filter: alpha(opacity=20);
+  }
+  30% {
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+  }
+  40% {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+  }
+  50% {
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+  }
+  60% {
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+  }
+  70% {
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+  }
+  80% {
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+  }
+  90% {
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+  }
+  100% {
+    opacity: 1;
+    -ms-filter: none;
+    -webkit-filter: none;
+            filter: none;
+  }
 }

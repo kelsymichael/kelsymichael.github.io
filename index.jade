@@ -8,27 +8,29 @@ html(lang='en')
 		link(rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300' type='text/css')
 
 	body
-		header: nav: ul
-			li: a(href='#about') about
-			li: a(href='#contact') contact
+
+		//- header: nav: ul
+		//- 	li: a(href='#about') about
+		//- 	li: a(href='#contact') contact
 		.topContainer			
 			h1.name| kelsymichael
 
-		section
+		.middlewrap: section
 			h1.middleText| UX/UI
 			.middle
-				img(src='assets/img/desktop.png').one
-				img(src='assets/img/tablet.png').two
-				img(src='assets/img/mobile.png').three
+				img(src='assets/img/desktop.svg').one
+				img(src='assets/img/tablet.svg').two
+				img(src='assets/img/mobile.svg').three
 
-			.line
+			.line#about
 
 			h1.middleText2| Web Development
 			.single
-				img(src='assets/img/web-dev.png')#web
-
-		footer
-			h1.goodbye|let's work together
-			input(type='email' placeholder='zero-spam, just an actual response from me')
-			input(type='submit', value='submit')
+				img(src='assets/img/web-dev.svg')#web
+			
+		.lowerwrap: footer
+			h1.goodbye|Let's work together
+		
+			//- input(type='email' placeholder='zero-spam, just an actual response from me')
+			//- input(type='submit', value='submit')
 		

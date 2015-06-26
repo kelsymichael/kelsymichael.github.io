@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2215px" height="941px" viewBox="0 0 2215 941" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy 4 + Group Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="416.133946" cy="417.278575" rx="416.133946" ry="417.278575"></ellipse>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-8" sketch:type="MSArtboardGroup" transform="translate(-68.000000, -255.000000)">
+            <g id="Group-Copy-4-+-Group-Copy-2" sketch:type="MSLayerGroup" transform="translate(1105.000000, 667.000000) rotate(-5.000000) translate(-1105.000000, -667.000000) translate(-34.000000, 97.000000)">
+                <g id="Group-Copy-4" transform="translate(520.730363, 521.282422) rotate(-17.000000) translate(-520.730363, -521.282422) translate(104.596418, 104.003846)">
+                    <mask id="mask-2" sketch:name="Mask" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#037E8C" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                    <g id="Group-Copy-3" mask="url(#mask-2)" sketch:type="MSShapeGroup">
+                        <g transform="translate(-75.404958, 274.667900)">
+                            <ellipse id="Oval-2" fill="#D8D8D8" cx="431.591664" cy="93.3444497" rx="40.0562198" ry="40.1663995"></ellipse>
+                            <ellipse id="Oval-2-Copy" fill="#D8D8D8" cx="809.304891" cy="153.028325" rx="13.8222167" ry="13.8602365"></ellipse>
+                            <ellipse id="Oval-2-Copy-14" fill="#D8D8D8" cx="982.787815" cy="330.948503" rx="15.7968191" ry="15.8402702"></ellipse>
+                            <ellipse id="Oval-2-Copy-3" fill="#D8D8D8" cx="801.970654" cy="296.722205" rx="6.48797926" ry="6.50582528"></ellipse>
+                            <ellipse id="Oval-2-Copy-8" fill="#D8D8D8" cx="572.352605" cy="6.50582528" rx="6.48797926" ry="6.50582528"></ellipse>
+                            <ellipse id="Oval-2-Copy-9" fill="#D8D8D8" cx="690.828748" cy="487.371172" rx="6.48797926" ry="6.50582528"></ellipse>
+                            <ellipse id="Oval-2-Copy-10" fill="#D8D8D8" cx="690.828748" cy="487.371172" rx="6.48797926" ry="6.50582528"></ellipse>
+                            <ellipse id="Oval-2-Copy-13" fill="#D8D8D8" cx="482.085068" cy="189.800381" rx="6.48797926" ry="6.50582528"></ellipse>
+                            <ellipse id="Oval-2-Copy-12" fill="#D8D8D8" cx="370.943162" cy="380.449348" rx="6.48797926" ry="6.50582528"></ellipse>
+                            <ellipse id="Oval-2-Copy-11" fill="#D8D8D8" cx="370.943162" cy="380.449348" rx="6.48797926" ry="6.50582528"></ellipse>
+                            <ellipse id="Oval-2-Copy-22" fill="#D8D8D8" cx="212.974971" cy="24.0432673" rx="6.48797926" ry="6.50582528"></ellipse>
+                            <ellipse id="Oval-2-Copy-21" fill="#D8D8D8" cx="212.974971" cy="24.0432673" rx="6.48797926" ry="6.50582528"></ellipse>
+                            <ellipse id="Oval-2-Copy-4" fill="#F2EFDC" cx="601.407469" cy="681.131621" rx="95.9092586" ry="96.1730693"></ellipse>
+                            <ellipse id="Oval-2-Copy-20" fill="#D8D8D8" cx="157.968191" cy="615.507644" rx="40.0562198" ry="40.1663995"></ellipse>
+                            <ellipse id="Oval-2-Copy-19" fill="#D8D8D8" cx="298.447046" cy="458.519251" rx="15.7968191" ry="15.8402702"></ellipse>
+                            <ellipse id="Oval-2-Copy-18" fill="#D8D8D8" cx="117.629885" cy="424.292953" rx="6.48797926" ry="6.50582528"></ellipse>
+                            <ellipse id="Oval-2-Copy-15" fill="#5DBEA9" cx="124.117864" cy="201.680584" rx="95.9092586" ry="96.1730693"></ellipse>
+                            <ellipse id="Oval-2-Copy-7" fill="#D8D8D8" cx="1077.28664" cy="58.5524275" rx="45.4158548" ry="45.540777"></ellipse>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-Copy-2" transform="translate(950.505585, 436.556013)" sketch:type="MSShapeGroup">
+                    <ellipse id="Oval-2" fill="#D8D8D8" cx="610.381542" cy="115.187636" rx="40.0898145" ry="40.0898145"></ellipse>
+                    <ellipse id="Oval-2-Copy-14" fill="#D8D8D8" cx="1162.03998" cy="352.338652" rx="15.8100677" ry="15.8100677"></ellipse>
+                    <ellipse id="Oval-2-Copy-3" fill="#D8D8D8" cx="981.071165" cy="318.177613" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-8" fill="#D8D8D8" cx="751.260539" cy="28.5145864" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-9" fill="#D8D8D8" cx="869.836046" cy="508.46307" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-10" fill="#D8D8D8" cx="869.836046" cy="508.46307" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-13" fill="#D8D8D8" cx="660.917295" cy="211.459656" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-12" fill="#D8D8D8" cx="549.682175" cy="401.745113" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-11" fill="#D8D8D8" cx="549.682175" cy="401.745113" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-22" fill="#D8D8D8" cx="391.581498" cy="46.0185899" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-21" fill="#D8D8D8" cx="391.581498" cy="46.0185899" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-4" fill="#F25050" cx="987.564586" cy="95.9896968" rx="95.9896968" ry="95.9896968"></ellipse>
+                    <ellipse id="Oval-2-Copy-20" fill="#F2C48D" cx="336.528584" cy="636.355225" rx="40.0898145" ry="40.0898145"></ellipse>
+                    <ellipse id="Oval-2-Copy-19" fill="#D8D8D8" cx="477.125257" cy="479.666161" rx="15.8100677" ry="15.8100677"></ellipse>
+                    <ellipse id="Oval-2-Copy-18" fill="#D8D8D8" cx="296.156447" cy="445.505122" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-17" fill="#D8D8D8" cx="184.921328" cy="635.79058" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-16" fill="#D8D8D8" cx="184.921328" cy="635.79058" rx="6.49342066" ry="6.49342066"></ellipse>
+                    <ellipse id="Oval-2-Copy-15" fill="#EF7247" cx="302.649867" cy="223.317206" rx="95.9896968" ry="95.9896968"></ellipse>
+                    <ellipse id="Oval-2-Copy-6" fill="#F2EC99" cx="1268.47561" cy="644.542582" rx="57.3114954" ry="57.3114954"></ellipse>
+                    <ellipse id="Oval-2-Copy-7" fill="#D8D8D8" cx="18.6332941" cy="514.391846" rx="18.6332941" ry="18.6332941"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
