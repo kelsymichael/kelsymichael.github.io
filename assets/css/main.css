@@ -47,7 +47,7 @@ a {
   font-size: 1.25rem;
 }
 .topContainer {
-  background: url("../img/background.svg") no-repeat center top fixed, url("../img/background1.svg") no-repeat center right, url("../img/background1.svg") no-repeat left center, url("../img/background3.svg") no-repeat center right fixed;
+  background: url("../img/background.svg") no-repeat center 20% fixed, url("../img/background2.svg") no-repeat center bottom -40%;
   background-color: #404040;
   background-size: contain;
   height: 60vh;
@@ -58,9 +58,16 @@ a {
 @media only screen and (max-width: 600px) {
   .topContainer {
     height: 40vh;
-    background: url("../img/background.svg") no-repeat center bottom fixed, url("../img/background1.svg") no-repeat center center, url("../img/background1.svg") no-repeat bottom right, url("../img/background3.svg") no-repeat center bottom fixed;
+    background: url("../img/background.svg") no-repeat center 90%;
     background-color: #404040;
     background-size: contain;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .topContainer {
+    background: url("../img/background.svg") no-repeat center 20% fixed, url("../img/background1.svg") no-repeat center right, url("../img/background1.svg") no-repeat left center, url("../img/background3.svg") no-repeat center right fixed;
+    background-color: #404040;
+    height: 70vh;
   }
 }
 .middlewrap {
@@ -237,7 +244,7 @@ footer:after {
 }
 @media only screen and (max-width: 600px) {
   .two {
-    width: 30%;
+    width: 15%;
   }
 }
 .three {
@@ -248,7 +255,7 @@ footer:after {
 }
 @media only screen and (max-width: 600px) {
   .three {
-    width: 15%;
+    width: 5%;
   }
 }
 #web {

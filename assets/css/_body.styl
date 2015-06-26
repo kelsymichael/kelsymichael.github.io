@@ -53,10 +53,10 @@ a
 	font-size 1.25rem	
 		
 .topContainer
-	background url('../img/background.svg') no-repeat center top fixed, 
-	url('../img/background1.svg') no-repeat center right,
-	url('../img/background1.svg') no-repeat left center,  
-	url('../img/background3.svg') no-repeat center right fixed
+	background url('../img/background.svg') no-repeat center 20% fixed,
+	url('../img/background2.svg') no-repeat center bottom -40%
+	// url('../img/background1.svg') no-repeat left center,  
+	// url('../img/background3.svg') no-repeat center right fixed
 	background-color $gray
 	background-size contain
 	height 60vh
@@ -64,13 +64,17 @@ a
 	transition .5s
 	+below(600px)
 		height 40vh
-		background url('../img/background.svg') no-repeat center bottom fixed, 
-		url('../img/background1.svg') no-repeat center center,
-		url('../img/background1.svg') no-repeat bottom right,  
-		url('../img/background3.svg') no-repeat center bottom fixed
+		background url('../img/background.svg') no-repeat center 90%
 		background-color $gray
 		background-size contain
-		
+
+	+above(960px)
+		background url('../img/background.svg') no-repeat center 20% fixed ,
+		url('../img/background1.svg') no-repeat center right,
+		url('../img/background1.svg') no-repeat left center,  
+		url('../img/background3.svg') no-repeat center right fixed		
+		background-color $gray
+		height 70vh
 	
 
 .middlewrap
@@ -170,17 +174,21 @@ $keyframe-name = test
 .two
 	height auto
 	width 20%
-	transition .5s
+	transition .5s 
 	+below(600px)
-		width 30%
+		width 15%
+		// transform translate(90%, -50%)
+			
 	
 .three
 	height auto
 	width 10%
 	transition .5s
 	+below(600px)
-		width 15%
-
+		width 5%
+		// transform translate(-200%, 50%)
+	
+		
 #web
 	height auto
 	width 60%
