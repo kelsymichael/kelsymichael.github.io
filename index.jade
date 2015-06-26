@@ -8,25 +8,22 @@ html(lang='en')
 		link(rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300' type='text/css')
 
 	body
-		header
-			nav
-				ul
-					li: a(href='#about') about
-					li: a(href='#contact') contact
+		header: nav: ul
+			li: a(href='#about') about
+			li: a(href='#contact') contact
 		.topContainer			
 			h1.name| kelsymichael
 
 		.middleContainer
 			h1.middleText| UX/UI
-			.centerThing
-				.icons
-					img(src='assets/img/desktop.png')#desktop
-					img(src='assets/img/tablet.png')#tablet
-					img(src='assets/img/mobile.png')#mobile
-
+			.responsive
+				img(src='assets/img/desktop.png')#desktop
+				img(src='assets/img/tablet.png')#tablet
+				img(src='assets/img/mobile.png')#mobile
 
 			h1.middleText| Web Development
-			img(src='assets/img/web-dev.png')#web
+			.single
+				img(src='assets/img/web-dev.png')#web
 
 		footer
 			h2.goodbye|let's work together
