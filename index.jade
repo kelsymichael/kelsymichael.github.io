@@ -14,19 +14,21 @@ html(lang='en')
 		.topContainer			
 			h1.name| kelsymichael
 
-		.middleContainer
+		section
 			h1.middleText| UX/UI
-			.responsive
-				img(src='assets/img/desktop.png')#desktop
-				img(src='assets/img/tablet.png')#tablet
-				img(src='assets/img/mobile.png')#mobile
+			.middle
+				img(src='assets/img/desktop.png').one
+				img(src='assets/img/tablet.png').two
+				img(src='assets/img/mobile.png').three
 
-			h1.middleText| Web Development
+			.line
+
+			h1.middleText2| Web Development
 			.single
 				img(src='assets/img/web-dev.png')#web
 
 		footer
-			h2.goodbye|let's work together
+			h1.goodbye|let's work together
 			input(type='email' placeholder='zero-spam, just an actual response from me')
 			input(type='submit', value='submit')
 		
