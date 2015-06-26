@@ -29,6 +29,24 @@ ul
 		+below(600px)
 			visibility hidden
 
+.social
+	padding 2%
+	border 1px solid $light
+	margin-right 2%
+	transition .5s
+	&:hover
+		background $light
+		color $green
+		
+.social1
+	padding 2%
+	border 1px solid $light
+	margin-left 2%
+	transition .5s
+	&:hover
+		background $light
+		color $green
+
 a 
 	text-decoration none
 	color $light
@@ -113,7 +131,10 @@ footer
 	text-align: center
 	height 50vh
 	color $light
-	cf()
+	transition .5s
+	+below(600px)
+		height 35vh
+	
 
 $keyframe-name = test
 @keyframes {$keyframe-name}
@@ -122,10 +143,11 @@ $keyframe-name = test
 			opacity (i/10)
 
 .goodbye
-	margin-top 10%
+	margin 10% 0
 	text-align: center
 	font-weight 300	
 	font-size 2.8125rem
+		
 
 .middle img
 	animation-name test
