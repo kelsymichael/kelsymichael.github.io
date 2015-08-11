@@ -3,4 +3,5 @@ config.codekit
 node_modules
 *.log
 bower_components
-
+*.jade
+*.styl
