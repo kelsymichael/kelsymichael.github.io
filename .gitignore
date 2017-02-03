@@ -3,4 +3,4 @@ config.codekit
 node_modules
 *.log
 bower_components
-
+node_modules
