@@ -1,11 +1,1 @@
-config.codekit
-/min
-node_modules
 *.log
-bower_components
-<<<<<<< HEAD
-*.jade
-*.styl
-=======
-node_modules
->>>>>>> extra
