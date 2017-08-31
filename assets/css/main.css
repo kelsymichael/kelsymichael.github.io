@@ -478,6 +478,9 @@ i {
   text-transform: uppercase;
 }
 
+a {
+  color: #fff;
+}
 
 
 .rt-title--light {
@@ -697,5 +700,21 @@ li {
 span {
   font-size: 3em;
 }
+
+
+.big {
+  height: 100vh;
+  width: 100%;
+  background: url('../img/self.jpg') right no-repeat;
+  background-size: cover;
+  background-position: 5px;
+}
+
+.bg-dark{
+  background-color: rgba(0,0,0,.54);
+  padding: .5em .8em;
+  color: #fff;
+}
+
 
 

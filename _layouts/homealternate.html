@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang='en-US'>
+
+{% include head.html %}
+
+<body>
+
+  <div class="big">
+
+    <div class="container">
+    {% include header.html %}
+    
+    <div class="bg-dark">
+    {{ content }}
+
+    {% include footer.html %}
+
+    </div>
+    </div>
+  </div>
+
+</body>
+</html>
