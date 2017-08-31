@@ -729,3 +729,59 @@ span {
   color: #fff;
 }
 
+.events-exploration {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+@media (max-width:500px){
+  .events-exploration {
+    flex-flow: row wrap;
+}
+}
+
+.smaller{
+  height: 500px;
+}
+
+
+/* 
+.rt-ideation-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 600px){
+  .rt-ideation-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
