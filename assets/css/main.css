@@ -478,8 +478,8 @@ i {
   text-transform: uppercase;
 }
 
-a {
-  color: #fff;
+.light--link {
+  color: #BDCFFF;
 }
 
 
@@ -710,11 +710,24 @@ span {
   background-position: 5px;
 }
 
-.bg-dark{
-  background-color: rgba(0,0,0,.54);
-  padding: .5em .8em;
-  color: #fff;
+@media (min-width: 700px) {
+  .big {
+    background-size: contain;
+  }
 }
 
 
+.bg-dark{
+  background-color: rgba(0,0,0,.60);
+  padding: .5em .8em;
+  color: #efefef;
+}
+
+i {
+  color: #fff;
+}
+
+.a--lightfont > *{
+  color: #fff;
+}
 
