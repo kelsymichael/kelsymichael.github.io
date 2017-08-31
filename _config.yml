@@ -1,0 +1,13 @@
+# Site Settings
+
+paginate:            5
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+plugins:             [jekyll-paginate, jekyll-sitemap]
+
+# feed settings
+title:		     "{{ site.data.settings.title }} | {{ site.data.settings.tagline }}"
+
