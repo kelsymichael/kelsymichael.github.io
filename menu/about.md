@@ -9,4 +9,4 @@ I'm a product designer, specializing in User Experience (UX) and User Interface 
 I currently work on the product team at [directscale](https://www.directscale.com), working to help clients translate complex business requirements into simple, user-friendly products.
 
 {:.home-description-text}
-Feel free to download my [resume]({{site.github.url}}/assets/portfolio.pdf) or reach out on one of the links below.
+Feel free to download my [resume]({{site.github.url}}/assets/resume.pdf) or reach out on one of the links below.
