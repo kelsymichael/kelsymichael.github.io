@@ -1,0 +1,16 @@
+{
+  "name": "kelsymichael.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kelsymichael/kelsymichael.github.io.git",
+  "author": "kelsy michael gagnebin <kelsymichael@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-shell": "^0.6.3",
+    "gulp-uncss": "^1.0.6",
+    "lodash": "^4.17.4"
+  }
+}
