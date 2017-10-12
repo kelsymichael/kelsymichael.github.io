@@ -4,7 +4,7 @@ import styled, { injectGlobal } from 'styled-components'
 //
 import Home from 'containers/Home'
 import About from 'containers/About'
-import Blog from 'containers/Blog'
+import Work from 'containers/Work'
 
 injectGlobal`
   html {
@@ -14,6 +14,7 @@ injectGlobal`
     box-sizing: inherit;
   }
   body {
+    background-color: hsl(0,0%,97%);
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -29,23 +30,20 @@ const AppStyles = styled.div`
     max-width: 415px;
   }
 
-  a {
-    text-decoration: none;
-    color: #108db8;
-    font-weight: bold;
-  }
-
   nav {
     width: 100%;
-    background: #108db8;
-
-    a {
-      color: white;
-      padding: 1rem;
-      display: inline-block;
-    }
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
   }
-
+  
+  .navLink {
+    color: hsla(0,0%,0%,87);
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: .5em 1em;
+  }    
   .content {
     padding: 1rem;
   }
@@ -55,15 +53,15 @@ export default () => (
   <Router>
     <AppStyles>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
+        <Link className="navLink" to="/">Home</Link>
+        <Link className="navLink" to="/blog">Work</Link>
+        <Link className="navLink" to="/about">About</Link>
       </nav>
       <div className="content">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/blog" component={Blog} />
+          <Route path="/blog" component={Work} />
           <Redirect to="/" />
         </Switch>
       </div>
