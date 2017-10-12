@@ -60,8 +60,8 @@ export default () => (
       <div className="content">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
+          <Route path="/about" component={About} />
           <Redirect to="/" />
         </Switch>
       </div>
