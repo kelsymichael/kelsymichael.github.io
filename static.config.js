@@ -13,7 +13,7 @@ export default {
         path: '/about',
       },
       {
-        path: '/blog',
+        path: '/work',
         getProps: () => ({
           posts,
         }),
