@@ -11,13 +11,13 @@ export default getRouteProps(({ match, posts }) => (
       exact
       render={() => (
         <div>
-          <h1>It's blog time.</h1>
+          <h1>It's work time.</h1>
           <br />
           All Posts:
           <ul>
             {posts.map(post => (
               <li key={post.id}>
-                <Link to={`/blog/post/${post.id}`}>{post.title}</Link>
+                <Link to={`/work/post/${post.id}`}>{post.title}</Link>
               </li>
             ))}
           </ul>

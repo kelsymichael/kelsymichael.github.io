@@ -54,14 +54,14 @@ export default () => (
     <AppStyles>
       <nav>
         <Link className="navLink" to="/">Home</Link>
-        <Link className="navLink" to="/blog">Work</Link>
+        <Link className="navLink" to="/work">Work</Link>
         <Link className="navLink" to="/about">About</Link>
       </nav>
       <div className="content">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/blog" component={Work} />
+          <Route path="/work" component={Work} />
           <Redirect to="/" />
         </Switch>
       </div>
