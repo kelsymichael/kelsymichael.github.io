@@ -23,6 +23,12 @@ injectGlobal`
 `
 
 const AppStyles = styled.div`
+  {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 415px;
+  }
+
   a {
     text-decoration: none;
     color: #108db8;
