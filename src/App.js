@@ -14,6 +14,7 @@ injectGlobal`
     box-sizing: inherit;
   }
   body {
+    color: hsla(0,0%,0%,.87);
     background-color: hsl(0,0%,97%);
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     font-weight: 300;
@@ -27,7 +28,7 @@ const AppStyles = styled.div`
   {
     height: 100%;
     margin: 0 auto;
-    max-width: 415px;
+    max-width: 700px;
   }
 
   nav {
