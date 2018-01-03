@@ -1,0 +1,724 @@
+/*
+  Base
+*/
+:root
+  box-sizing: border-box
+  font-size: 1em
+  line-height: 1.5
+
+*
+::before
+::after
+  box-sizing: inherit
+
+@media (max-width: 30em) 
+  body h1
+    font-size: 1.5rem
+
+h1, h2, h3, h4, h5, h6
+  color: #333
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+
+h1 
+  font-size: 2rem
+
+h1 a
+  text-decoration: none
+
+a
+  color: #333
+  text-decoration: underline
+
+a:hover 
+  border-bottom: none
+  color: black
+
+p 
+  color: #1F1F1F
+  font-family: Georgia, "Times New Roman", serif
+  font-size: 1.15em
+
+img 
+  border-radius: 5px
+  height: auto
+  max-width: 100%
+
+blockquote 
+  border-left: 0.25rem solid #ccc
+  color: #999
+  font-style: italic
+  margin: 1.5em 10px
+  padding: 0.5em 10px
+  quotes: "\201C""\201D""\2018""\2019"
+
+blockquote:before 
+  color: #ccc
+  content: open-quote
+  font-size: 4em
+  line-height: 0.1em
+  margin-right: 0.25em
+  vertical-align: -0.4em
+
+blockquote p 
+  display: inline
+
+/*
+  Site container
+*/
+
+.container 
+  margin: 0 auto
+  width: 615px
+
+@media (max-width: 1366px) 
+  .container 
+    width: 45vw
+
+@media (max-width: 768px) 
+  .container 
+    width: 90vw
+
+/*
+  Masthead
+*/
+
+.masthead 
+  margin-bottom: 3em
+  padding: .5em 0
+
+.masthead a:hover 
+  color:black
+
+.masthead-title a 
+  color: #505050
+  font-size: 1.8em
+  text-decoration: none
+
+.masthead-subtitle 
+  color: #999
+
+/*
+  Post
+*/
+
+.post-container 
+  margin-bottom: 4em
+
+.posts 
+  list-style: none
+  margin-bottom: 5em
+  padding: 0
+
+.post-date 
+  color: #9a9a9a
+  display: block
+  font-family: sans-serif
+  font-size:0.8rem
+  margin-bottom: 1rem
+  margin-top:3px
+
+@media (max-width: 30rem) 
+  .posts h1 
+    font-size: 1.5rem
+
+.related 
+  padding-bottom: 2rem
+
+.related-posts 
+  list-style: none
+  padding-left: 0
+
+.related-posts a 
+  text-decoration: none
+
+/*
+  Pagination
+*/
+
+.pagination 
+  font-family: 'Quattrocento Sans', sans-serif
+  overflow: hidden
+  text-align: center
+
+.pagination a 
+  text-decoration: none
+
+.pagination-button 
+  border: 1px solid #e0e0e0
+  color: #999
+  display: inline-block
+  font-size: 16px
+  font-weight: bold
+  padding: 15px 45px  
+
+.pagination-active 
+  color: black
+
+.pagination-active:hover 
+  background-color: #e0e0e0
+
+/*
+  Footer
+*/
+
+.footer 
+  color: #999
+  margin: 2em
+  text-align: center
+
+.footer a 
+  color: #999
+  padding: 10px
+  text-decoration: none
+
+.footer a:hover 
+  color: #333
+
+/*
+  Menu
+*/
+
+.menu 
+  display: block
+  padding-top: 0.5em
+
+.menu-content 
+  float: left
+
+.menu-content a 
+  color: #999
+  font-size: 1rem
+  padding-right: 10px
+
+.social-icons 
+  float: right
+
+.social-icons a 
+  color: #999
+  font-size: 1rem
+
+@media (max-width: 30em) 
+  .social-icons 
+    padding-top: 0
+  .menu-content 
+    margin-bottom: 5px
+
+/*
+  Code
+*/
+
+pre,
+code 
+  background-color: #f5f5f5
+  border-radius: 3px
+  font-family: "Source Code Pro"
+  font-size: 0.8rem
+
+code 
+  padding: 1px 5px
+
+pre 
+  overflow-x: auto
+  padding: 8px 12px
+
+pre > code 
+  border: 0
+  padding-left: 0
+  padding-right: 0
+
+.highlight .lineno 
+  border-right:1px solid #ccc
+  color: #aaa
+  display:inline-block
+  padding: 0 5px
+
+.highlight pre code 
+  display: block
+  overflow-x: auto
+  white-space: pre
+  word-wrap: normal
+
+/*
+  Social media icons
+*/
+
+.sharing-icons a 
+  padding-right: 10px
+
+.fa-envelope 
+  padding: 5px
+  -o-transition:.5s
+  -ms-transition:.5s
+  -moz-transition:.5s
+  -webkit-transition:.5s
+  transition: .5s
+
+.fa-envelope:hover 
+  color: #f39c12
+
+.fa-twitter 
+  padding: 5px
+  -o-transition:.5s
+  -ms-transition:.5s
+  -moz-transition:.5s
+  -webkit-transition:.5s
+  transition: .5s
+
+.fa-twitter:hover 
+  color: #00aced
+
+.fa-instagram 
+  padding: 5px
+  -o-transition:.5s
+  -ms-transition:.5s
+  -moz-transition:.5s
+  -webkit-transition:.5s
+  transition: .5s
+
+.fa-instagram:hover 
+  color: #375989
+
+.fa-github 
+  padding: 5px
+  -o-transition:.5s
+  -ms-transition:.5s
+  -moz-transition:.5s
+  -webkit-transition:.5s
+  transition: .5s
+
+.fa-github:hover 
+  color: #343434
+
+.fa-linkedin 
+  padding: 5px
+  -o-transition:.5s
+  -ms-transition:.5s
+  -moz-transition:.5s
+  -webkit-transition:.5s
+  transition: .5s
+
+.fa-linkedin:hover 
+  color: #0073a4
+
+.fa-facebook 
+  padding: 5px
+  -o-transition:.5s
+  -ms-transition:.5s
+  -moz-transition:.5s
+  -webkit-transition:.5s
+  transition: .5s
+
+.fa-facebook:hover 
+  color: #3d5b99
+
+
+.fa-google-plus 
+  padding: 5px
+  -o-transition:.5s
+  -ms-transition:.5s
+  -moz-transition:.5s
+  -webkit-transition:.5s
+  transition: .5s
+
+.fa-google-plus:hover 
+  color: #e64a41
+
+.fa-pinterest 
+  padding: 5px
+  -o-transition:.5s
+  -ms-transition:.5s
+  -moz-transition:.5s
+  -webkit-transition:.5s
+  transition: .5s
+
+
+.fa-pinterest:hover 
+  color: #bd081c
+
+.fa-medium 
+  padding: 5px
+  -o-transition:.5s
+  -ms-transition:.5s
+  -moz-transition:.5s
+  -webkit-transition:.5s
+  transition: .5s
+
+
+.fa-medium:hover 
+  color: #00AB6C
+
+
+.fa-codepen 
+  padding: 5px
+  -o-transition:.5s
+  -ms-transition:.5s
+  -moz-transition:.5s
+  -webkit-transition:.5s
+  transition: .5s
+
+
+.fa-codepen:hover 
+  color: black
+
+
+
+/*
+  utility classes
+*/
+.u-center 
+  text-align: center
+
+
+
+/*
+  Resume
+*/
+.experience-container 
+  background-color: #efefef
+  padding: 1rem
+
+
+i 
+  font-size: 50px
+
+
+/*
+  RaceTri - mini case study
+*/
+/* .race-tri-intro 
+  border: 1px solid black
+ */
+
+.rt-title 
+  margin-bottom: 0
+
+
+.rt-subtitle 
+  margin-top: 0
+
+
+
+.rt-description-title 
+  color: rgba(0,0,0,.44)
+  margin-bottom: 0
+  text-transform: uppercase
+
+
+.rt-description-title--light 
+  color: rgba(255,255,255,.54)
+  margin-bottom: 0
+  text-transform: uppercase
+
+
+.light--link 
+  color: #BDCFFF
+
+
+
+.rt-title--light 
+  color: #fff
+  margin-bottom: 0
+
+.rt-subtitle--light 
+  color: #fff
+  margin-top: 0
+
+
+
+
+.rt-description-title + * 
+  margin-top: 0
+
+
+.rt-step0-container 
+  background-color: rgba(0,0,0,.87)
+  padding: 15px
+  border-radius: 2px
+
+
+.rt-step0-container 
+  color: #fff
+
+
+.rt-description-text--light 
+  color: rgba(255,255,255,.87)
+
+
+
+/* .rt-paper-container 
+  background-color: rgba(0,0,0,.54)
+ */
+
+.cookie-container 
+  display: flex
+  flex-flow: row wrap
+  list-style: none
+  margin: 0
+  padding: .8em
+
+
+.cookie 
+  background-color: #fff
+  border-radius: 2px
+  color: #1f1f1f
+  font-family: sans-serif
+  margin: .2em
+  padding: .5em .87em
+  text-transform: uppercase
+
+
+/* .rt-outcome-container 
+  position: relative
+ */
+
+.rt-outcome-sidenote p
+  background-color: rgba(0,0,0,.87)
+  border-radius: 2px
+  color:  rgba(255,255,255,.75)
+  font-style: italic
+  padding: .5em .8em
+
+
+.rt-outcome-sidenote > p 
+  margin: 0
+
+
+/* .rt-outcome-sidenote-2 
+  background-color: rgba(0,0,0,.87)
+  color:  rgba(255,255,255,.75)
+  font-style: italic
+  padding: .5em .8em
+  border-radius: 2px
+  position: absolute
+  left: 10
+  margin-top: -200px
+
+
+ */
+
+
+.rt-outcome-sidenote-2 > p 
+  margin: 0
+
+
+.rt-problem-container 
+  display:  flex
+  flex-flow: row
+
+
+@media (max-width: 768px)
+  .rt-problem-container 
+    flex-flow: column
+  
+
+
+/* 
+.phone 
+  max-width: 300px
+
+ */
+.figure-caption 
+  font-style: italic
+
+
+.orange 
+  color: #FF7260
+
+
+.closeup-container 
+  display: flex
+  flex-flow: column
+
+
+
+  /* border-top: 10px solid transparent
+  border-bottom: 10px solid transparent
+  border-right: 10px solid blue 
+  border-radius: 50px 50px 10px 50px */
+
+
+
+
+.bg-dropbox
+/*   padding: 50px 0 */
+  background-image: url('../img/paper-screenshot.png')
+  background-size: cover
+
+
+.bg-sketches
+  background-color: #F5F4F0
+  margin-bottom: 0
+  padding: 1.5em 0 0
+
+
+.bg-exploration 
+  background-color: #F6F6F6
+  padding: 1.5em 0
+
+
+.bg-tablet
+  background-color: #000
+  margin-bottom: 0
+  padding: 1.5em 0 0
+
+
+
+.bg-results
+  background-color: #868686
+  background-image: -webkit-linear-gradient(bottom, #868686 0%, #ffffff 100%)
+  background-image: -o-linear-gradient(bottom, #868686 0%, #ffffff 100%)
+  background-image: linear-gradient(to top, #868686 0%, #ffffff 100%)
+
+
+
+.tablet
+  color: #fff
+  padding-bottom: 1em
+
+
+.race-tri-ideation
+  background-color: #F5F4F0
+
+
+
+.results-before 
+  display: flex
+  flex-flow: row wrap
+
+
+
+.before-container 
+  display: flex
+  flex-flow: column
+  align-items: flex-end
+
+
+
+.after-container 
+  display: flex
+  flex-flow: column
+  align-items: center
+
+
+
+.u-topmargin 
+  margin-top: 50px
+
+
+
+figure 
+  margin-bottom: 0
+
+
+li 
+  font-size: .87rem
+
+/* 
+.bg-home 
+  background-image: url('../img/mountain-mist.jpg')
+  background-size: cover
+
+ */
+/* .home-intro 
+  padding: 1em .85em
+ */
+
+
+.home-title 
+  color: rgba(0,0,0,.54)
+
+.home-description-text 
+  color: rgba(0,0,0,.54)
+  font-size: 1.25em
+  line-height: 1.5
+
+
+
+span 
+  font-size: 3em
+
+
+
+.big 
+  background: url('../img/self.jpg') right no-repeat
+  background-position: 5px
+  background-size: cover
+  height: 100vh
+  width: 100%
+
+
+@media (min-width: 700px) 
+  .big 
+    background-size: contain
+  
+
+
+
+.bg-dark
+  background-color: rgba(0,0,0,.60)
+  color: #efefef
+  padding: .5em .8em
+
+
+
+
+.a--lightfont > *
+  color: #fff
+
+
+.events-exploration 
+  display: flex
+  flex-flow: row nowrap
+  justify-content: space-around
+
+
+@media (max-width:500px)
+  .events-exploration 
+    flex-flow: row wrap
+
+
+
+.smaller
+  height: 500px
+
+
+
+/* 
+.rt-ideation-container
+  display: flex
+  flex-flow: row wrap
+  justify-content: center
+  align-items: center
+
+
+@media (min-width: 600px)
+  .rt-ideation-container
+    display: flex
+    flex-flow: row nowrap
+    justify-content: center
+    align-items: center
+  
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,6 +2,7 @@
 
 paginate:            5
 
+
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
@@ -11,3 +12,15 @@ plugins:             [jekyll-paginate, jekyll-sitemap]
 # feed settings
 title:		     "{{ site.data.settings.title }} | {{ site.data.settings.tagline }}"
 
+
+stylus:
+  path: _stylus
+
+
+
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - yarn.lock
+  - README.md 
