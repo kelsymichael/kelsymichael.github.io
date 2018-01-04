@@ -9,11 +9,8 @@
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.8.0",
-    "gulp-shell": "^0.6.5",
+    "gulp-shell": "^0.6.3",
     "gulp-uncss": "^1.0.6",
     "lodash": "^4.17.4"
-  },
-  "dependencies": {
-    "jekyll": "^3.0.0-beta1"
   }
 }
