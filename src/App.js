@@ -34,6 +34,11 @@ const AppStyles = styled.div`
 
   .content {
     padding: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
   }
 
   img {
