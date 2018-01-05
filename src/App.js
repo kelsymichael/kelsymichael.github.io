@@ -1,22 +1,13 @@
 import React from 'react'
-import { Router, Route, Switch, Redirect, Link } from 'react-static'
+import { Router, Link } from 'react-static'
 import styled, { injectGlobal } from 'styled-components'
 //
-import Home from 'containers/Home'
-import About from 'containers/About'
-import Work from 'containers/Work'
+import Routes from 'react-static-routes'
 
 injectGlobal`
-  html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
   body {
-    color: hsla(0,0%,0%,.87);
-    background-color: hsl(0,0%,97%);
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+      'Lucida Grande', sans-serif;
     font-weight: 300;
     font-size: 16px;
     margin: 0;
@@ -25,28 +16,29 @@ injectGlobal`
 `
 
 const AppStyles = styled.div`
-  {
-    height: 100%;
-    margin: 0 auto;
-    max-width: 700px;
+  a {
+    text-decoration: none;
+    color: #108db8;
+    font-weight: bold;
   }
 
   nav {
     width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    background: #108db8;
+
+    a {
+      color: white;
+      padding: 1rem;
+      display: inline-block;
+    }
   }
-  
-  .navLink {
-    color: hsla(0,0%,0%,87);
-    font-size: 1.25rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    padding: .5em 1em;
-  }    
+
   .content {
     padding: 1rem;
+  }
+
+  img {
+    max-width: 100%;
   }
 `
 
@@ -54,17 +46,12 @@ export default () => (
   <Router>
     <AppStyles>
       <nav>
-        <Link className="navLink" to="/">Home</Link>
-        <Link className="navLink" to="/work">Work</Link>
-        <Link className="navLink" to="/about">About</Link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/blog">Blog</Link>
       </nav>
       <div className="content">
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/work" component={Work} />
-          <Route path="/about" component={About} />
-          <Redirect to="/" />
-        </Switch>
+        <Routes />
       </div>
     </AppStyles>
   </Router>
