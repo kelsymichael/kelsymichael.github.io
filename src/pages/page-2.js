@@ -53,15 +53,15 @@ const SecondPage = () => (
       slogging through videos and taking notes.
     </p>
 
-    <h2>🗒️✏️📋️⌚️⏱️👨‍🔬️ It's a slow process 👩‍🐢️🧪️🔬️</h2>
-    <p>🧑️ 10 User Tests</p>
-    <p>⏱️ Each test ~ 15mins</p>
+    <h2>It's a slow process</h2>
+    <p>10 User Tests</p>
+    <p>Each test ~ 15mins</p>
     <p>
       Healthy estimate and watching videos at 1.5speed -- stopping, going back
       and annotating ends up evening a lot of that part out.
     </p>
     <p>
-      👂️total time = ~ 150mins of <em>just listening</em>
+      total time = ~ 150mins of <em>just listening</em>
     </p>
 
     <h3>Checklist</h3>
@@ -102,7 +102,7 @@ const SecondPage = () => (
 
     <Details>
     <details>
-      <summary>Details 👇️</summary>
+      <summary>Details</summary>
       Something small enough to escape casual notice.
     </details>
     </Details>

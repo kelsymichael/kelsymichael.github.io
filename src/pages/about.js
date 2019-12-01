@@ -6,6 +6,56 @@ import SEO from "../components/seo"
 
 import self from "../images/self.jpg"
 
+
+/*
+
+Background
+#16161a
+Headline
+white
+Paragraph
+#94a1b2
+Button
+#7f5af0
+Button text
+white
+Illy stroke
+#16161a
+Illy main
+white
+Illy highlight
+#7f5af0
+Illy secondary
+#72757e
+Illy tertiary
+#2cb67d
+
+
+Background
+#f8f5f2
+Headline
+#232323
+Paragraph
+#222525
+Button
+#078080
+Button text
+#232323
+Illy stroke
+#232323
+Illy main
+white
+Illy highlight
+#078080
+Illy secondary
+#f45d48
+Illy tertiary
+#f8f5f2
+
+
+*/
+
+
 export const PageWrapper = styled.div`
   box-sizing: border-box;
   margin: 0 auto;
@@ -67,7 +117,7 @@ const ContentWrapper = styled.div`
   }
   .self__img {
     background: #fbfbfb;
-    border-radius: 4px;
+    border-radius: 12px;
     min-width: 200px;
     max-width: 250px;
     grid-column: 2 / span 3;
